@@ -32,7 +32,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        return $this->redirect("https://github.com/arturssmirnovs/github-profile-views-counter");
     }
 
     /**
