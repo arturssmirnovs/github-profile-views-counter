@@ -46,6 +46,7 @@ class SiteController extends Controller
 
         $this->response->format = $this->response::FORMAT_RAW;
         $this->response->headers->set('Content-Type', 'image/svg+xml');
+        $this->response->headers->set('Cache-Control', 'max-age=0, no-cache, no-store, must-revalidate');
 
         $profile = Views::find()->where(["profile" => $id])->one();
 
