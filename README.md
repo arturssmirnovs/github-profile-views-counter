@@ -16,6 +16,8 @@ GitHub will proxy this url trought github como servers but don't worry, links ar
 
 ![Profile views](https://gpvc.arturio.dev/github-profile-views-counter)
 
+https://gpvc.arturio.dev/github-profile-views-counter
+
 #### Self hosted
 - Clone repository
 - run composer install
