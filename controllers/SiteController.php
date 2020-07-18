@@ -44,6 +44,7 @@ class SiteController extends Controller
     {
         $this->layout = "none";
 
+        $this->response->format = $this->response::FORMAT_RAW;
         $this->response->headers->set('Content-Type', 'image/svg');
 
         $profile = Views::find()->where(["profile" => $id])->one();
