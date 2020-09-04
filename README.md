@@ -6,9 +6,9 @@ Simple GitHub readme profile views statistics counter made with Yii2 Framework. 
 
 ### Usage
 
-Replace [YOUR_PROFILE_USERNAME] with your profile username, for example: github-profile-views-counter, so the link comes out: https://gpvc.arturio.dev/github-profile-views-counter and afterwards just add it to your profile readme file useing code bellow.
+Replace [YOUR_PROFILE_USERNAME] with your profile username, for example: github-profile-views-counter, so the link comes out: https://gpvc.arturio.dev/github-profile-views-counter and afterwards just add it to your profile readme file using code bellow.
 
-GitHub will proxy this url trought github como servers but don't worry, links are correct and cache control is set to no cache, so views will be constantly updated.
+GitHub will proxy this url trough github como servers but don't worry, links are correct and cache control is set to no cache, so views will be constantly updated.
 
 ```
 ![Profile views](https://gpvc.arturio.dev/[YOUR_PROFILE_USERNAME])
