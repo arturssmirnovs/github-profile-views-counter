@@ -1,8 +1,8 @@
-# Github README profile views counter 
+# GitHub README profile views counter 
 
 Simple GitHub readme profile views statistics counter made with Yii2 Framework. You can add this shortcode to your github profile for free and see how many times your profile has been viewed.
 
-<img src="https://raw.githubusercontent.com/arturssmirnovs/github-profile-views-counter/master/banner.png" alt="Banner about Github profile views counter">
+<img src="https://raw.githubusercontent.com/arturssmirnovs/github-profile-views-counter/master/banner.png" alt="Banner about GitHub profile views counter">
 
 ### Usage
 
