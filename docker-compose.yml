@@ -14,6 +14,14 @@ services:
     ports:
       - "${MYSQL_PORT}:3306"
 
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
   gpvc:
     image: gpvc:latest
     expose:

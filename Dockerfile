@@ -11,9 +11,11 @@ COPY . .
 
 RUN rm -rf vendor/
 
+RUN rm -rf data/
+
 RUN rm -rf .git/
 
-RUN apk add nano npm
+RUN apk add nano
 
 RUN composer install --no-interaction --optimize-autoloader --no-dev
 
