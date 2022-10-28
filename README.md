@@ -28,6 +28,11 @@ https://gpvc.arturio.dev/github-profile-views-counter
 - run ./yii2 migrate
 - enjoy
 
+#### Docker
+
+Build image `docker build -t gpvc . `
+Run container `docker-compose --env-file .env up -d`
+
 ##### How to create github profile readme?
 
 https://arturio.dev/github-profile-readme/
